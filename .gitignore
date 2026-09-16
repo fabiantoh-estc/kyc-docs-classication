@@ -1,0 +1,25 @@
+# Secrets — never commit real keys
+.env
+backend/.env
+.secrets/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/node_modules/.tmp/
+
+# Dev process files
+.dev-pids/
+.dev-logs/
+*.log
+.DS_Store
